@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-0">
+        <div class="container">
+            <a class="navbar-brand py-0" href="index.html"><img src="https://image.nametests.com/img/logo.png" class="img-fluid"
+                    alt="Responsive image"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-uppercase" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Terpopuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Terlaris </a>
+                    </li>
+                    <li class="nav-item">
+                        <select class="form-control form-control-sm">
+                            <option value="volvo">Indonesia</option>
+                            <option value="saab">English</option>
+                            <option value="opel">Jepang</option>
+                            <option value="audi"><i class="fa fa-y-combinator" aria-hidden="true"></i></option>
+                        </select>
+                    </li>
+                    <li id="logOut" class="nav-item">
+                        <button id="logOut2" class="nav-link text-uppercase" href="">keluar </button>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link text-uppercase" href="#">Keluar</a>
+                    </li> -->
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <div class="detail text-center">
+                        <h2>Berapa banyak orang ingin berpacaran atau menikah denganmu?</h1>
+                            <img id="imageFb" class="img-fluid" src="//image.nametests.com/landing_page_img/2016/08/17/5ecea209d30271419e26c01c5ec19352.jpg">
+                            <p>Silakan masuk dengan Facebook untuk melihat hasil Anda</p>
+                            <hr class="my-2">
+                            <p class="lead">
+                                <div style="display: none" id="btn-fb" scope="public_profile,email" onlogin="checkLoginState();"
+                                    class="fb-login-button" data-size="large" data-button-type="continue_with"
+                                    data-auto-logout-link="false" data-use-continue-as="false"></div>
+                                <div id="status">
+                                </div>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sidebar">
+                    <img src="https://image.nametests.com/cache/images/promote_image/2016/11/24/9a6582f37d20a2d778a392dafb28a8ed/be3450c904ac4f6fd9edadebd0bb2d5c.jpg"
+                        class="img-fluid" alt="">
+                    <a href="">Apa 5 Fakta tentangmu Berdasarkan Tanggal Lahirmu?</a>
+
+                </div>
+                <div class="sidebar mt-2">
+                    <img src="https://image.nametests.com/cache/images/promote_image/2016/11/24/9a6582f37d20a2d778a392dafb28a8ed/be3450c904ac4f6fd9edadebd0bb2d5c.jpg"
+                        class="img-fluid" alt="">
+                    <a href="">Apa 5 Fakta tentangmu Berdasarkan Tanggal Lahirmu?</a>
+                </div>
+                <div class="sidebar mt-2">
+                    <img src="https://image.nametests.com/cache/images/promote_image/2016/11/24/9a6582f37d20a2d778a392dafb28a8ed/be3450c904ac4f6fd9edadebd0bb2d5c.jpg"
+                        class="img-fluid" alt="">
+                    <a href="">Apa 5 Fakta tentangmu Berdasarkan Tanggal Lahirmu?</a>
+                </div>
+                <div class="sidebar mt-2">
+                    <img src="https://image.nametests.com/cache/images/promote_image/2016/11/24/9a6582f37d20a2d778a392dafb28a8ed/be3450c904ac4f6fd9edadebd0bb2d5c.jpg"
+                        class="img-fluid" alt="">
+                    <a href="">Apa 5 Fakta tentangmu Berdasarkan Tanggal Lahirmu?</a>
+                </div>
+                <div class="sidebar mt-2">
+                    <img src="https://image.nametests.com/cache/images/promote_image/2016/11/24/9a6582f37d20a2d778a392dafb28a8ed/be3450c904ac4f6fd9edadebd0bb2d5c.jpg"
+                        class="img-fluid" alt="">
+                    <a href="">Apa 5 Fakta tentangmu Berdasarkan Tanggal Lahirmu?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="facebook.js"></script>
+</body>
+
+</html>
